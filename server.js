@@ -9,7 +9,7 @@ const port = process.env.PORT || 3000;
 
 // Dapatkan path absolut ke Python di lingkungan virtual
 // const pythonPath = path.join(__dirname, "venv", "Scripts", "python.exe");
-const pythonPath = "python3";
+const pythonPath = "python";
 
 // Aktifkan CORS dan parsing JSON
 app.use(cors());
