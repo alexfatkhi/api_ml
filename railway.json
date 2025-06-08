@@ -1,0 +1,11 @@
+{
+  "deploy": {
+    "startCommand": "npm start",
+    "healthcheckPath": "/symptoms"
+  },
+  "plugins": [
+    {
+      "name": "Python"
+    }
+  ]
+} 
